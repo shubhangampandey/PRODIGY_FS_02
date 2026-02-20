@@ -4,7 +4,7 @@
 
 1. `cd backend`
 2. `npm install`
-3. Copy `.env.example` to `.env` and set your MongoDB URI and JWT secret:
+3. set your MongoDB URI and JWT secret in backend .env:
    ```
    PORT=5000
    MONGODB_URI=mongodb://localhost:27017/ems
@@ -12,10 +12,6 @@
    ```
 4. `npm run dev` (uses nodemon) or `npm start`
 
-## Default Admin
-On first login attempt, a default admin is auto-created:
-- **Email:** admin@company.com
-- **Password:** admin123
 
 ## API Endpoints
 
